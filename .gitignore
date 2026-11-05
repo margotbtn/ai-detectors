@@ -1,0 +1,18 @@
+# Environments
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Raw corpora and heavy intermediates are regenerable: `make data`
+data/
+artifacts/*
+
+# ...but these are small and MUST be committed: the HF Space cannot run the
+# experiments, it only reads calibrated thresholds, ROC points and figures.
+!artifacts/calibration/
+!artifacts/figures/
+
+# Docker
+.devcontainer/

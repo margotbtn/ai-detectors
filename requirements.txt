@@ -1,0 +1,20 @@
+# Dev / experiment environment (installed by .devcontainer/Dockerfile).
+# NOTE: torch is deliberately absent here -- the Dockerfile installs the CPU-only
+# build from https://download.pytorch.org/whl/cpu first. Adding it here would let
+# pip resolve the CUDA wheels from PyPI instead (several GB, useless on CPU).
+#
+# Upper bounds are conservative on purpose: this has to still run on the day of
+# the talk. Run `make lock` inside the container to freeze exact versions.
+
+transformers>=4.44,<5
+sentence-transformers>=3.0,<6
+scikit-learn>=1.5,<2
+numpy>=1.26,<3
+pandas>=2.2,<3
+pyarrow>=15
+matplotlib>=3.8,<4
+huggingface_hub>=0.25
+datasets>=2.20
+tqdm>=4.66
+gradio>=5,<6
+pytest>=8

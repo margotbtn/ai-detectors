@@ -1,0 +1,11 @@
+# Hugging Face Space runtime only -- deliberately lighter than the dev
+# requirements.txt: no datasets, matplotlib, pytest or scikit-learn training
+# stack beyond what inference needs. Keeps CPU Space cold starts short.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+gradio>=5,<6
+torch>=2.4,<3
+transformers>=4.44,<5
+sentence-transformers>=3.0,<6
+scikit-learn>=1.5,<2
+numpy>=1.26,<3
