@@ -13,6 +13,15 @@ artifacts/*
 # experiments, it only reads calibrated thresholds, ROC points and figures.
 !artifacts/calibration/
 !artifacts/figures/
+# Only the two fitted 256-token models the app loads (~1.6 MB total).
+# They need the scikit-learn version pinned in requirements.lock.txt.
+!artifacts/models/
+artifacts/models/*
+!artifacts/models/tfidf-lr_256.joblib
+!artifacts/models/embedding-lr_256.joblib
+
+# Assembled Space bundle: `make space`
+build/
 
 # Docker
 .devcontainer/
