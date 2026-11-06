@@ -1,11 +1,15 @@
-# Hugging Face Space runtime only -- deliberately lighter than the dev
-# requirements.txt: no datasets, matplotlib, pytest or scikit-learn training
-# stack beyond what inference needs. Keeps CPU Space cold starts short.
+# Hugging Face Space runtime only (copied to the Space root by `make space`).
+# Exact pins = the versions every number was measured with (requirements.lock.txt):
+#   - scikit-learn MUST match: the two classifiers are pickled with joblib.
+#   - torch/transformers fix the Qwen scores the thresholds were calibrated on.
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-gradio>=5,<6
-torch>=2.4,<3
-transformers>=4.44,<5
-sentence-transformers>=3.0,<6
-scikit-learn>=1.5,<2
-numpy>=1.26,<3
+gradio==5.50.0
+torch==2.15.0
+transformers==4.57.6
+sentence-transformers==5.7.0
+scikit-learn==1.9.1
+joblib==1.6.0
+numpy==2.5.4
+matplotlib==3.11.2
+huggingface_hub==0.36.2

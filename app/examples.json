@@ -1,0 +1,44 @@
+[
+ {
+  "name": "Human news article",
+  "label": "human",
+  "source": "RAID 5e65a808-2f70-44ad-ae05-4b0cf53e7358",
+  "point": "Real journalism. No detector flags it.",
+  "text": "Jamie Costin should be paralysed. He says so himself in a matter-of-fact way as he recalls the car accident which occurred nine days before he was scheduled to step out into the Olympic Stadium in Athens for the 50K Walk. There is an ironic chuckle as he talks of his immediate thoughts after a lorry, driving on the wrong side of the road, had ploughed into his rental car. \"I was in a lot of pain and I guessed that one of my toes was broken,\" says the Waterford man. \"But I was thinking maybe with a cortisone injection you never know. \"In my back, it felt as though all the muscles had been ripped off my pelvis but I was thinking maybe we could do something with laser therapy and ultra sound and hopefully I'd be able to race.\" It took over 10 hours before Jamie knew with certainty that he would not be competing in his second Olympics. \"My back had been broken in two places and with one of my vertebrae, the bottom part had exploded so I'm fierce lucky not be paralysed. \"I'd fractured my big toe as well which was on the brake.\" Jamie didn't finally arrive at hospital in Athens until some"
+ },
+ {
+  "name": "ChatGPT news article",
+  "label": "AI",
+  "source": "RAID 95a1468d-8f97-47e8-b359-d328bdbdf92d",
+  "point": "The training generator. Every detector flags it.",
+  "text": "Musicians from around the world are feeling positive about the impact that the internet has had on their careers, according to a recent survey. The study, conducted by an independent market research company, reveals that artists are increasingly embracing online platforms to connect with fans and promote their music. The survey, which involved over 1,000 musicians, found that 80% of respondents believe that the internet has had a positive impact on their careers. Many artists praised the ability to reach a global audience through social media, streaming platforms, and online music stores. One artist, who wished to remain anonymous, highlighted the ability to share their music directly with fans as one of the major benefits of the internet. They explained how platforms like YouTube and SoundCloud allow them to showcase their talent and gain exposure without relying on traditional record labels. \"It truly democratizes the music industry,\" they said. Additionally, the survey found that the internet has changed the way musicians earn revenue. Despite concerns surrounding illegal downloading and piracy, over 70% of respondents reported that they earn income from online music sales and streaming services. Many artists also mentioned the opportunities that arise from advertising and sponsorship deals on platforms like YouTube and TikTok. However, the survey also shed light on some of the challenges musicians"
+ },
+ {
+  "name": "GPT-4 news article",
+  "label": "AI",
+  "source": "RAID e285846a-f552-4323-97f9-c80cbd96033e",
+  "point": "A generator none of them trained on. Perplexity misses it.",
+  "text": "Tech giant Yahoo, while no longer maintaining its past dominance, has been making strategic moves that suggest it may undergo a resurgence in the next decade. With new leadership, diverse partnerships and innovative technology, the internet company may still hold the potential to challenge Google, Amazon and other tech titans. Yahoo’s transformation into a multifaceted tech company has been spearheaded by its current CEO, Josh James. Under his leadership, Yahoo has acquired several startups in artificial intelligence and data analytics sectors. These strategic acquisitions signify a shift in Yahoo's trajectory, suggesting the company may be gearing up to dominate the digital landscape in a way that it hasn't in years. One such acquisition is the San Francisco-based artificial intelligence startup, Knewton, known for its adaptive learning technology. Marrying Knewton's AI technology with Yahoo's wide-reaching platform could potentially revolutionize the way users interact with online content, making it more personalized and intuitive, which is likely to attract a younger audience. In addition to acquisitions, Yahoo has been forming partnerships across different sectors. One significant collaboration is with telecom giant, Verizon Communications. This partnership has allowed Yahoo to extend its reach to Verizon’s extensive customer base, a move that has significantly bolstered Yahoo's user count. Yahoo's dedication toward leveraging new technology is"
+ },
+ {
+  "name": "Human arXiv abstract",
+  "label": "human",
+  "source": "RAID c0009c67-d594-4da3-af81-a06984e70ab5",
+  "point": "A new domain. The trained detectors call a scientist's writing AI.",
+  "text": "Longitudinal reproducibility is an essential concern in automated medical image segmentation, yet has proven to be an elusive objective as manual brain structure tracings have shown more than 10% variability. To improve reproducibility, lon-gitudinal segmentation (4D) approaches have been investigated to reconcile tem-poral variations with traditional 3D approaches. In the past decade, multi-atlas la-bel fusion has become a state-of-the-art segmentation technique for 3D image and many efforts have been made to adapt it to a 4D longitudinal fashion. However, the previous methods were either limited by using application specified energy function (e.g., surface fusion and multi model fusion) or only considered tem-poral smoothness on two consecutive time points (t and t+1) under sparsity as-sumption. Therefore, a 4D multi-atlas label fusion theory for general label fusion purpose and simultaneously considering temporal consistency on all time points is appealing. Herein, we propose a novel longitudinal label fusion algorithm, called 4D joint label fusion (4DJLF), to incorporate the temporal consistency modeling via non-local patch-intensity covariance models. The advantages of 4DJLF include: (1) 4DJLF is under the general label"
+ },
+ {
+  "name": "Mixed: human opening + ChatGPT continuation",
+  "label": "mixed",
+  "source": "RAID 4f822bc7-37ae-4a08-a68c-4c619dde37a9 + 697158c9-5058-46c9-88a6-613049091a67",
+  "point": "Same story, half and half. What should the answer even be?",
+  "text": "Search sites want to get to know you better. Not content with providing access to the millions of websites, many now offer ways that do a better job of remembering, cataloguing and managing all the information you come across. Some of the latest to update their search systems are Ask Jeeves and Blinkx, which have both released a series of utilities that try to help people get more from the web. \"The future is all about developing your own personal web,\" said Tony Macklin, spokesman for Ask Jeeves. Search engines, the backbone of the internet, have long been a vital tool in helping users find information online. However, as technology continues to evolve, search sites are now getting closer to users in ways that were unimaginable just a few years ago. One of the biggest advancements in search technology is the integration of artificial intelligence (AI). Search sites are now utilizing AI algorithms to better understand user intent and provide more targeted search results."
+ },
+ {
+  "name": "Short ChatGPT text",
+  "label": "AI",
+  "source": "RAID 95a1468d-8f97-47e8-b359-d328bdbdf92d (first sentences)",
+  "point": "Under 100 tokens: scores are unreliable.",
+  "text": "Musicians from around the world are feeling positive about the impact that the internet has had on their careers, according to a recent survey. The study, conducted by an independent market research company, reveals that artists are increasingly embracing online platforms to connect with fans and promote their music."
+ }
+]
